@@ -1,0 +1,152 @@
+body {
+  padding: 0;
+  box-sizing: border-box;
+  margin-left: 10xp;
+  margin-right: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen','Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+body{
+  background-color: #393E46;
+}
+
+.notes-page{
+  width: 100%;
+  min-height: 100vh;
+  color: whitesmoke;
+}
+
+.notes-page header{
+  max-width: 1920px;
+  min-height: 100px;
+  overflow: hidden;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #222831;
+}
+
+a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+
+.notes-page header .logo{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+
+.notes-page header ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 0 15px;
+}
+
+
+.notes-page header ul li  a {
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+
+.notes-page header ul li  a:hover {
+  opacity: 1;
+}
+
+
+.notes-page section {
+  width: 100%;
+  
+  padding: 20px 0;
+}
+
+
+.notes-wrapper{
+  max-width: 1920px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+}
+
+
+.card{
+  width: 100%;
+  box-shadow:0 0 5px black ;
+  background: #393E46;
+  padding: 0;
+  position: relative;
+  color: #ddd;
+  margin: 00;
+  cursor: pointer;
+}
+
+
+.card .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-weight: 900;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+
+.card h4{
+  margin-top: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+.card .text-wrapper{
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  margin: 10px 0;
+  color: #fff9ff;;
+}
+
+
+.card .date{
+  text-align: right;
+  color: wheat;
+}
+
+
+
+
+.create-note input, .create-note button{
+  width: 100%;
+  height: 40px;
+  padding: 0 5px;
+}
+
+
+
+.fotter{
+  max-width: 1920px;
+  min-height: 100px;
+  color: whitesmoke;
+  background-color: #222831;
+  text-align: center;
+}
+
+
+.fotter p {
+  padding-top: 03%;
+}
